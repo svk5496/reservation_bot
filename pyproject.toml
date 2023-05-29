@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tennis-reservation-bot"
+version = "0.1.0"
+description = ""
+authors = ["svk5496 <otter0513@naver.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tennis_reservation_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.1"
+pytz = "^2023.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
